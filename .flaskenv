@@ -1,1 +1,1 @@
-FLASK_APP=testapp.py
+FLASK_APP=testpy.py
