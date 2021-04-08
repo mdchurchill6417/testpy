@@ -1,0 +1,19 @@
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - Testapp</title>
+        {% else %}
+        <title>Welcome to Testapp</title>
+        {% endif %}
+    </head>
+    <body>
+        <div>
+            Testpy
+            <a href="/index">Home</a>
+            <a href="/login">Login</a>
+        </div>
+        
+        <hr>
+        {% block content%}{% endblock %}
+    </body>
+</html>
